@@ -1,0 +1,9 @@
+void TestCase()
+    {
+    ifstream inFile;
+    string word;
+    inFile.open("Twitter.txt");
+    if (!inFile) {
+    cerr << "Unable to open file Twitter.txt";
+    exit(1);   // call system to stop
+}
